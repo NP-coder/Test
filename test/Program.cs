@@ -20,14 +20,14 @@ namespace test
         {
             public virtual void Foo()
             {
-                Console.Write("Class A");
+                Console.Write("Class A!");
             }
         }
         class B : A
         {
             public override void Foo()
             {
-                Console.Write("Class B");
+                Console.Write("Class B!");
             }
         }
 
