@@ -30,6 +30,18 @@ namespace test
                 Console.Write("Class B!");
             }
         }
+        class C
+        {
+          int age{get;set};
+          string name{get;set};
+
+          public void person()
+          {
+            age=this.age;
+            name=this.name;
+            Console.Write($"name, age");
+          }
+        }
 
     }
 }
