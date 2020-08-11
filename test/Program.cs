@@ -39,7 +39,7 @@ namespace test
           {
             age=this.age;
             name=this.name;
-            Console.Write($"name, age");
+            Console.Write($"{name}, {age}");
           }
         }
 
